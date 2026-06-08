@@ -1,0 +1,16 @@
+{
+  "name": "fastforward-com",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "export": "node scripts/export-wp-to-markdown.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1"
+  }
+}
